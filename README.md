@@ -25,11 +25,13 @@ Documentul este constituit din patru secțiuni. Acestea sunt:
 	Pe parcusul funcționării programului se produc modificări asupra tabelelor din baza de date.
 
 3.3.	Structuri de date temporare
+	
 	Nu s-au folosit structuri de date temporare care să influențeze soluția.
 
 3.4.	Structura tabelelor
 
 3.4.1.	Tabela Member
+	
 	member_id – identificatorul utilizatorului;
 	first_name – prenumele utilizatorului;
 	last_name – numele utilizatorului;
@@ -39,10 +41,12 @@ Documentul este constituit din patru secțiuni. Acestea sunt:
 	member_role – rolul utilizatorului; sunt două: profesor (admin), acesta poate rezerva săli, și student (user), acesta poate doar să vadă sălile rezervate de către profesorul său;
 
 3.4.2.	Tabela Resources
+	
 	resource_id – identificatorul resursei (sălii);
 	resource_name – numele resursei (e.g. EC004);
 
 3.4.3.	Tabela Reservation
+	
 	reservation_id – identificatorul rezervării;
 	resource_id – identificatorul resursei;
 	member_id – identificatorul utilizatorului;
@@ -56,6 +60,7 @@ Documentul este constituit din patru secțiuni. Acestea sunt:
 	reservation_time – durata în ore a rezervării;
 
 3.4.4.	Tabela Contact2
+	
 	first_name – prenumele lăsat la contact;
 	last_name – numele lăsat la contact;
 	email – email-ul lăsat la contact;
@@ -63,5 +68,6 @@ Documentul este constituit din patru secțiuni. Acestea sunt:
 	message_text – un mesaj 
 
 3.4.5.	Tabela Favorite_classes
+	
 	member_id - identificatorul utilizatorului
 	resource_id – identificatorul resursei
